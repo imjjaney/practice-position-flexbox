@@ -23,9 +23,10 @@ html,body{
 
 .box-container .pink{
   background-color: palevioletred;
-  position: relative;
-  left: 220px;
-} /*flexbox 이용한 다음 position:relative로 이동*/ 
+  position: absolute;
+  right: 100px;
+
+} /*flexbox 이용한 다음 position:absolute로 이동*/ 
 
 .box-container .blue{
   background-color: blue;

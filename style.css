@@ -1,0 +1,130 @@
+html,body{
+  margin:0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box{
+  width: 100px;
+  height: 100px; 
+  color: white;
+}
+
+/*문제 1*/ 
+.box-container{
+  border: 1px solid grey;
+  display:flex;
+  justify-content: space-between;
+}
+
+.box-container .black{
+  background-color: black;
+}
+
+.box-container .pink{
+  background-color: palevioletred;
+  position: relative;
+  left: 220px;
+} /*flexbox 이용한 다음 position:relative로 이동*/ 
+
+.box-container .blue{
+  background-color: blue;
+  
+}
+
+/*문제 2*/ 
+.box-container2{
+  border:1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  height:350px;
+}
+
+.box-container2 .black{
+  background-color: black;
+}
+
+.box-container2 .pink{
+  background-color: palevioletred;
+  position: relative;
+  top: 100px;
+}
+
+.box-container2 .blue{
+  background-color: blue;
+  position: relative;
+  top: 200px;
+}
+
+/*문제 3*/
+.box-container3{
+  border:1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:420px;
+}
+
+.box-container3 .black{
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  position : relative;
+  top: 20px;
+}
+
+.box-container3 .pink{
+  background-color: palevioletred;
+  position: relative;
+  bottom: 130px; /* black box 가 아래로 움직인 20px 반영 */ 
+}
+
+/*문제 4*/
+.box-container4{
+  border:1px solid grey;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.box-container4 .black{
+  background-color: black;
+}
+
+.box-container4 .pink{
+  background-color: palevioletred; 
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+}
+
+/*문제5*/
+.box-container5{
+  border:1px solid grey;
+  height: 350px;
+  display: flex; 
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+.box-container5 .black{
+  background-color: black;
+  width: 350px;
+  height: 150px;
+
+}
+
+.box-container5 .pink{
+  background-color: palevioletred; 
+  position: relative;
+  left: 200px;
+}
+
+.box-container5 .blue{
+  background-color: blue; 
+  position: relative;
+  left:350px;
+  bottom: 50px;
+}
+
